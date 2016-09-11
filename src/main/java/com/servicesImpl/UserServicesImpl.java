@@ -12,7 +12,7 @@ public class UserServicesImpl implements UserServices {
 	 UserDao userDao;
 	
 	public List<Users> list() {
-		// TODO Auto-generated method stub
+		
 		return userDao.list()
 		
 	}
