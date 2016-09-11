@@ -18,7 +18,7 @@ public class UserServicesImpl implements UserServices {
 	}
 
 	public boolean delete(Users users) {
-		// TODO Auto-generated method stub
+		
 		return userDao.delete(users);
 		
 	}
