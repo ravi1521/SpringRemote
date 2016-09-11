@@ -24,7 +24,7 @@ public class UserServicesImpl implements UserServices {
 	}
 
 	public boolean saveOrUpdate(Users users) {
-		// TODO Auto-generated method stub
+		
 		return userDao.saveOrUpdate(users);
 	}
 
